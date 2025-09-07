@@ -218,3 +218,4 @@ experiments/
 dataset/
 classes.txt
 labels.csv
+checkpoints/
