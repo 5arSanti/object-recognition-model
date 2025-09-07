@@ -24,3 +24,9 @@ Este proyecto implementa un modelo de reconocimiento de objetos utilizando **Fif
 - 8GB+ RAM recomendado
 - GPU compatible con CUDA (opcional, para aceleración)
 - Windows 10/11, macOS, o Linux
+
+
+# Labeling
+
+docker pull heartexlabs/label-studio:latest
+docker run -it -p 8080:8080 -v $(pwd)/mydata:/label-studio/data heartexlabs/label-studio:latest

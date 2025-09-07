@@ -214,3 +214,7 @@ __pycache__/
 data/ 
 experiments/ 
 *.ckpt
+
+dataset/
+classes.txt
+labels.csv
